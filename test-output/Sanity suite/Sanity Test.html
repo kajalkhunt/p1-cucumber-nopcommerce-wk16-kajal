@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>TestNG:  Sanity Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Sanity Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 13 22:06:20 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>53 seconds (53999 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommece.testsuite.ComputerPageTest.verifyProductArrangeInAlphaBaticalOrder()'><b>verifyProductArrangeInAlphaBaticalOrder</b><br>Test class: com.nopcommece.testsuite.ComputerPageTest<br/>
+<a href="#Output-990870941" onClick='toggleBox("Output-990870941", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-990870941" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-990870941">
+Clicking on computer Computers then desktop <br/>
+Sorting computer desktops Position
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on<br/>
+Verifying list after sorting [[[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']]]<br/>
+Verifying list before sorting [[[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']]]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommece.testsuite.ComputerPageTest@3578436e</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.ShoppingCartPageTest.verifyProductAddedToShoppingCartSuccessFully()'><b>verifyProductAddedToShoppingCartSuccessFully</b><br>Test class: com.nopcommece.testsuite.ShoppingCartPageTest<br/>
+<a href="#Output-2049837144" onClick='toggleBox("Output-2049837144", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2049837144" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2049837144">
+click on computer Computers<br/>
+click on computer Desktops<br/>
+sort computerdesktops to AtoZPosition
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on<br/>
+click on shopping cartADD TO CART<br/>
+To Verify Message  Build your own computer<br/>
+To Verify Message  Build your own computer<br/>
+Select 2.2 GHz Intel Pentium Dual-Core E2200 from Dropdown list<br/>
+Select 8GB [+$60.00] from Dropdown list<br/>
+Click on Radio Button By.id: product_attribute_3_7<br/>
+Click on Radio Button By.id: product_attribute_4_9<br/>
+Click on CheckBox By.id: product_attribute_5_12<br/>
+To Verify Message  $1,475.00<br/>
+To Verify Message  $1,475.00<br/>
+Select Press Button By.xpath: //button[@id='add-to-cart-button-1']<br/>
+To Verify Message  The product has been added to your shopping cart<br/>
+To Verify Message  The product has been added to your shopping cart<br/>
+Select Press Button By.xpath: //span[@class='close']<br/>
+Mouse Hover and Click on Shopping Cart <br/>
+Click on Go Cart Button<br/>
+To Verify Message  Shopping cart<br/>
+To Verify Message  Shopping cart<br/>
+Clear Quantity field<br/>
+Change The Quantity<br/>
+Click on Update Cart Button<br/>
+To Verify Message  $2,950.00<br/>
+To Verify Message  $2,950.00<br/>
+Click on CheckBox By.id: termsofservice<br/>
+Select Press Button By.id: checkout<br/>
+To Verify Message  Welcome, Please Sign In!<br/>
+To Verify Message  Welcome, Please Sign In!<br/>
+Select Press Button By.xpath: //button[contains(text(),'Checkout as Guest')]<br/>
+Select India from Dropdown list<br/>
+Select Press Button By.name: save<br/>
+Click on Radio Button By.id: shippingoption_1<br/>
+Select Press Button By.xpath: //button[@onclick='ShippingMethod.save()']<br/>
+Click on Radio Button By.id: paymentmethod_1<br/>
+Select Press Button By.xpath: //button[@onclick='PaymentMethod.save()']<br/>
+Select Master card from Dropdown list<br/>
+Select 10 from Dropdown list<br/>
+Select 2025 from Dropdown list<br/>
+Select Press Button By.id: payment-info-buttons-container<br/>
+To Verify Message  Payment Method:<br/>
+To Verify Message  Payment Method:<br/>
+To Verify Message  Credit Card<br/>
+To Verify Message  Credit Card<br/>
+To Verify Message  Shipping Method:<br/>
+To Verify Message  Shipping Method:<br/>
+To Verify Message  Next Day Air<br/>
+To Verify Message  Next Day Air<br/>
+To Verify Message  $2,950.00<br/>
+To Verify Message  $2,950.00<br/>
+Select Press Button By.xpath: //button[@onclick='ConfirmOrder.save()']<br/>
+To Verify Message  Thank you<br/>
+To Verify Message  Thank you<br/>
+To Verify Message  Your order has been successfully processed!<br/>
+To Verify Message  Your order has been successfully processed!<br/>
+Select Press Button By.xpath: //button[@onclick='setLocation("/")']<br/>
+To Verify Message  Welcome to our store<br/>
+To Verify Message  Welcome to our store<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.nopcommece.testsuite.ShoppingCartPageTest@35a50a4c</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.HomePageTest.verifyPageNavigation()'><b>verifyPageNavigation</b><br>Test class: com.nopcommece.testsuite.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommece.testsuite.HomePageTest@281e3708</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.ElectronicsPageTest.verifyUserShouldNavigateToCellPhonesPageSuccessfully()'><b>verifyUserShouldNavigateToCellPhonesPageSuccessfully</b><br>Test class: com.nopcommece.testsuite.ElectronicsPageTest<br/>
+<a href="#Output-116184677" onClick='toggleBox("Output-116184677", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-116184677" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-116184677">
+To Verify Message  [[ChromeDriver: chrome on WINDOWS (a90eb621195b739d5d6b4ee104ba10bf)] -> xpath: //h1[contains(text(),'Cell phones')]]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nopcommece.testsuite.ElectronicsPageTest@68ceda24</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.LoginPageTest.verifyUserShouldNavigateToLoginPage()'><b>verifyUserShouldNavigateToLoginPage</b><br>Test class: com.nopcommece.testsuite.LoginPageTest<br/>
+<a href="#Output-939829672" onClick='toggleBox("Output-939829672", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-939829672" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-939829672">
+click on login tabLog in<br/>
+To Verify Message  Welcome, Please Sign In!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommece.testsuite.LoginPageTest@103f852</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on computer Computers then desktop ]]>
+    </line>
+    <line>
+      <![CDATA[Sorting computer desktops Position
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on]]>
+    </line>
+    <line>
+      <![CDATA[Verifying list after sorting [[[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']]]]]>
+    </line>
+    <line>
+      <![CDATA[Verifying list before sorting [[[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']]]]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  [[ChromeDriver: chrome on WINDOWS (a90eb621195b739d5d6b4ee104ba10bf)] -> xpath: //h1[contains(text(),'Cell phones')]]]]>
+    </line>
+    <line>
+      <![CDATA[click on computer Computers]]>
+    </line>
+    <line>
+      <![CDATA[click on computer Desktops]]>
+    </line>
+    <line>
+      <![CDATA[sort computerdesktops to AtoZPosition
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on]]>
+    </line>
+    <line>
+      <![CDATA[click on shopping cartADD TO CART]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Build your own computer]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Build your own computer]]>
+    </line>
+    <line>
+      <![CDATA[Select 2.2 GHz Intel Pentium Dual-Core E2200 from Dropdown list]]>
+    </line>
+    <line>
+      <![CDATA[Select 8GB [+$60.00] from Dropdown list]]>
+    </line>
+    <line>
+      <![CDATA[Click on Radio Button By.id: product_attribute_3_7]]>
+    </line>
+    <line>
+      <![CDATA[Click on Radio Button By.id: product_attribute_4_9]]>
+    </line>
+    <line>
+      <![CDATA[Click on CheckBox By.id: product_attribute_5_12]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  $1,475.00]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  $1,475.00]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.xpath: //button[@id='add-to-cart-button-1']]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  The product has been added to your shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  The product has been added to your shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.xpath: //span[@class='close']]]>
+    </line>
+    <line>
+      <![CDATA[Mouse Hover and Click on Shopping Cart ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Go Cart Button]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Clear Quantity field]]>
+    </line>
+    <line>
+      <![CDATA[Change The Quantity]]>
+    </line>
+    <line>
+      <![CDATA[Click on Update Cart Button]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  $2,950.00]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  $2,950.00]]>
+    </line>
+    <line>
+      <![CDATA[Click on CheckBox By.id: termsofservice]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.id: checkout]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Welcome, Please Sign In!]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Welcome, Please Sign In!]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.xpath: //button[contains(text(),'Checkout as Guest')]]]>
+    </line>
+    <line>
+      <![CDATA[Select India from Dropdown list]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.name: save]]>
+    </line>
+    <line>
+      <![CDATA[Click on Radio Button By.id: shippingoption_1]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.xpath: //button[@onclick='ShippingMethod.save()']]]>
+    </line>
+    <line>
+      <![CDATA[Click on Radio Button By.id: paymentmethod_1]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.xpath: //button[@onclick='PaymentMethod.save()']]]>
+    </line>
+    <line>
+      <![CDATA[Select Master card from Dropdown list]]>
+    </line>
+    <line>
+      <![CDATA[Select 10 from Dropdown list]]>
+    </line>
+    <line>
+      <![CDATA[Select 2025 from Dropdown list]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.id: payment-info-buttons-container]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Payment Method:]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Payment Method:]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Credit Card]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Credit Card]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Shipping Method:]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Shipping Method:]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Next Day Air]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Next Day Air]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  $2,950.00]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  $2,950.00]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.xpath: //button[@onclick='ConfirmOrder.save()']]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Thank you]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Thank you]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Your order has been successfully processed!]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Your order has been successfully processed!]]>
+    </line>
+    <line>
+      <![CDATA[Select Press Button By.xpath: //button[@onclick='setLocation("/")']]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Welcome to our store]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Welcome to our store]]>
+    </line>
+    <line>
+      <![CDATA[click on login tabLog in]]>
+    </line>
+    <line>
+      <![CDATA[To Verify Message  Welcome, Please Sign In!]]>
+    </line>
+  </reporter-output>
+  <suite name="Sanity suite" duration-ms="53999" started-at="2022-12-13T22:06:20 GMT" finished-at="2022-12-13T22:07:14 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="ComputerPageTest.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@3578436e]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.nopcommece.testsuite.ComputerPageTest"/>
+        <method signature="ElectronicsPageTest.verifyUserShouldNavigateToCellPhonesPageSuccessfully()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@68ceda24]" name="verifyUserShouldNavigateToCellPhonesPageSuccessfully" class="com.nopcommece.testsuite.ElectronicsPageTest"/>
+        <method signature="HomePageTest.verifyPageNavigation()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@281e3708]" name="verifyPageNavigation" class="com.nopcommece.testsuite.HomePageTest"/>
+        <method signature="LoginPageTest.verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@103f852]" name="verifyUserShouldNavigateToLoginPage" class="com.nopcommece.testsuite.LoginPageTest"/>
+        <method signature="ShoppingCartPageTest.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@35a50a4c]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommece.testsuite.ShoppingCartPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="ComputerPageTest.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@3578436e]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.nopcommece.testsuite.ComputerPageTest"/>
+        <method signature="ElectronicsPageTest.verifyUserShouldNavigateToCellPhonesPageSuccessfully()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@68ceda24]" name="verifyUserShouldNavigateToCellPhonesPageSuccessfully" class="com.nopcommece.testsuite.ElectronicsPageTest"/>
+        <method signature="HomePageTest.verifyPageNavigation()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@281e3708]" name="verifyPageNavigation" class="com.nopcommece.testsuite.HomePageTest"/>
+        <method signature="LoginPageTest.verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@103f852]" name="verifyUserShouldNavigateToLoginPage" class="com.nopcommece.testsuite.LoginPageTest"/>
+        <method signature="ShoppingCartPageTest.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@35a50a4c]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommece.testsuite.ShoppingCartPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Sanity Test" duration-ms="53999" started-at="2022-12-13T22:06:20 GMT" finished-at="2022-12-13T22:07:14 GMT">
+      <class name="com.nopcommece.testsuite.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@281e3708]" name="setUp" is-config="true" duration-ms="3153" started-at="2022-12-13T22:06:38 GMT" finished-at="2022-12-13T22:06:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@281e3708]" name="inIt" is-config="true" duration-ms="12" started-at="2022-12-13T22:06:41 GMT" finished-at="2022-12-13T22:06:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyPageNavigation()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@281e3708]" name="verifyPageNavigation" duration-ms="1160" started-at="2022-12-13T22:06:41 GMT" finished-at="2022-12-13T22:06:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@281e3708]" name="tearDown" is-config="true" duration-ms="751" started-at="2022-12-13T22:06:43 GMT" finished-at="2022-12-13T22:06:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.HomePageTest -->
+      <class name="com.nopcommece.testsuite.ElectronicsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@68ceda24]" name="setUp" is-config="true" duration-ms="3427" started-at="2022-12-13T22:06:30 GMT" finished-at="2022-12-13T22:06:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@68ceda24]" name="inIt" is-config="true" duration-ms="6" started-at="2022-12-13T22:06:33 GMT" finished-at="2022-12-13T22:06:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToCellPhonesPageSuccessfully()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@68ceda24]" name="verifyUserShouldNavigateToCellPhonesPageSuccessfully" duration-ms="2972" started-at="2022-12-13T22:06:33 GMT" finished-at="2022-12-13T22:06:36 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[To Verify Message  [[ChromeDriver: chrome on WINDOWS (a90eb621195b739d5d6b4ee104ba10bf)] -> xpath: //h1[contains(text(),'Cell phones')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToCellPhonesPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@68ceda24]" name="tearDown" is-config="true" duration-ms="1175" started-at="2022-12-13T22:06:37 GMT" finished-at="2022-12-13T22:06:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.ElectronicsPageTest -->
+      <class name="com.nopcommece.testsuite.ShoppingCartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@35a50a4c]" name="setUp" is-config="true" duration-ms="3178" started-at="2022-12-13T22:06:43 GMT" finished-at="2022-12-13T22:06:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@35a50a4c]" name="inIT" is-config="true" duration-ms="3" started-at="2022-12-13T22:06:47 GMT" finished-at="2022-12-13T22:06:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@35a50a4c]" name="verifyProductAddedToShoppingCartSuccessFully" duration-ms="20570" started-at="2022-12-13T22:06:47 GMT" finished-at="2022-12-13T22:07:07 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[click on computer Computers]]>
+            </line>
+            <line>
+              <![CDATA[click on computer Desktops]]>
+            </line>
+            <line>
+              <![CDATA[sort computerdesktops to AtoZPosition
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on]]>
+            </line>
+            <line>
+              <![CDATA[click on shopping cartADD TO CART]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Build your own computer]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Build your own computer]]>
+            </line>
+            <line>
+              <![CDATA[Select 2.2 GHz Intel Pentium Dual-Core E2200 from Dropdown list]]>
+            </line>
+            <line>
+              <![CDATA[Select 8GB [+$60.00] from Dropdown list]]>
+            </line>
+            <line>
+              <![CDATA[Click on Radio Button By.id: product_attribute_3_7]]>
+            </line>
+            <line>
+              <![CDATA[Click on Radio Button By.id: product_attribute_4_9]]>
+            </line>
+            <line>
+              <![CDATA[Click on CheckBox By.id: product_attribute_5_12]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  $1,475.00]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  $1,475.00]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.xpath: //button[@id='add-to-cart-button-1']]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  The product has been added to your shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  The product has been added to your shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.xpath: //span[@class='close']]]>
+            </line>
+            <line>
+              <![CDATA[Mouse Hover and Click on Shopping Cart ]]>
+            </line>
+            <line>
+              <![CDATA[Click on Go Cart Button]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Clear Quantity field]]>
+            </line>
+            <line>
+              <![CDATA[Change The Quantity]]>
+            </line>
+            <line>
+              <![CDATA[Click on Update Cart Button]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  $2,950.00]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  $2,950.00]]>
+            </line>
+            <line>
+              <![CDATA[Click on CheckBox By.id: termsofservice]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.id: checkout]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Welcome, Please Sign In!]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Welcome, Please Sign In!]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.xpath: //button[contains(text(),'Checkout as Guest')]]]>
+            </line>
+            <line>
+              <![CDATA[Select India from Dropdown list]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.name: save]]>
+            </line>
+            <line>
+              <![CDATA[Click on Radio Button By.id: shippingoption_1]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.xpath: //button[@onclick='ShippingMethod.save()']]]>
+            </line>
+            <line>
+              <![CDATA[Click on Radio Button By.id: paymentmethod_1]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.xpath: //button[@onclick='PaymentMethod.save()']]]>
+            </line>
+            <line>
+              <![CDATA[Select Master card from Dropdown list]]>
+            </line>
+            <line>
+              <![CDATA[Select 10 from Dropdown list]]>
+            </line>
+            <line>
+              <![CDATA[Select 2025 from Dropdown list]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.id: payment-info-buttons-container]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Payment Method:]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Payment Method:]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Credit Card]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Credit Card]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Shipping Method:]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Shipping Method:]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Next Day Air]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Next Day Air]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  $2,950.00]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  $2,950.00]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.xpath: //button[@onclick='ConfirmOrder.save()']]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Thank you]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Thank you]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Your order has been successfully processed!]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Your order has been successfully processed!]]>
+            </line>
+            <line>
+              <![CDATA[Select Press Button By.xpath: //button[@onclick='setLocation("/")']]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Welcome to our store]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Welcome to our store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToShoppingCartSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@35a50a4c]" name="tearDown" is-config="true" duration-ms="968" started-at="2022-12-13T22:07:07 GMT" finished-at="2022-12-13T22:07:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.ShoppingCartPageTest -->
+      <class name="com.nopcommece.testsuite.ComputerPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@3578436e]" name="setUp" is-config="true" duration-ms="6462" started-at="2022-12-13T22:06:20 GMT" finished-at="2022-12-13T22:06:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@3578436e]" name="inIT" is-config="true" duration-ms="69" started-at="2022-12-13T22:06:27 GMT" finished-at="2022-12-13T22:06:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@3578436e]" name="verifyProductArrangeInAlphaBaticalOrder" duration-ms="1856" started-at="2022-12-13T22:06:27 GMT" finished-at="2022-12-13T22:06:29 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on computer Computers then desktop ]]>
+            </line>
+            <line>
+              <![CDATA[Sorting computer desktops Position
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on]]>
+            </line>
+            <line>
+              <![CDATA[Verifying list after sorting [[[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']]]]]>
+            </line>
+            <line>
+              <![CDATA[Verifying list before sorting [[[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphaBaticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@3578436e]" name="tearDown" is-config="true" duration-ms="803" started-at="2022-12-13T22:06:29 GMT" finished-at="2022-12-13T22:06:30 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.ComputerPageTest -->
+      <class name="com.nopcommece.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@103f852]" name="setUp" is-config="true" duration-ms="3600" started-at="2022-12-13T22:07:08 GMT" finished-at="2022-12-13T22:07:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@103f852]" name="inIt" is-config="true" duration-ms="6" started-at="2022-12-13T22:07:12 GMT" finished-at="2022-12-13T22:07:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@103f852]" name="verifyUserShouldNavigateToLoginPage" duration-ms="698" started-at="2022-12-13T22:07:12 GMT" finished-at="2022-12-13T22:07:13 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[click on login tabLog in]]>
+            </line>
+            <line>
+              <![CDATA[To Verify Message  Welcome, Please Sign In!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@103f852]" name="tearDown" is-config="true" duration-ms="784" started-at="2022-12-13T22:07:13 GMT" finished-at="2022-12-13T22:07:14 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.LoginPageTest -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- Sanity suite -->
+</testng-results>

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Sanity_suite">
+              <span class="suite-name border-passed">Sanity suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Sanity_suite">
+                    <span>C:\Users\harsp\IdeaProjects\Pagefactory\p1-sw5-nopcommerce-harshit-patel\src\test\java\resources\runners\sanity.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Sanity_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Sanity_suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Sanity_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Sanity_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Sanity_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Sanity_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Sanity_suite" class="hide-methods passed suite-Sanity_suite"> (hide)</a> <!-- hide-methods passed suite-Sanity_suite -->
+                      <a href="#" panel-name="suite-Sanity_suite" class="show-methods passed suite-Sanity_suite"> (show)</a> <!-- show-methods passed suite-Sanity_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Sanity_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_suite" title="com.nopcommece.testsuite.HomePageTest" hash-for-method="verifyPageNavigation">verifyPageNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_suite" title="com.nopcommece.testsuite.ShoppingCartPageTest" hash-for-method="verifyProductAddedToShoppingCartSuccessFully">verifyProductAddedToShoppingCartSuccessFully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_suite" title="com.nopcommece.testsuite.ComputerPageTest" hash-for-method="verifyProductArrangeInAlphaBaticalOrder">verifyProductArrangeInAlphaBaticalOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_suite" title="com.nopcommece.testsuite.ElectronicsPageTest" hash-for-method="verifyUserShouldNavigateToCellPhonesPageSuccessfully">verifyUserShouldNavigateToCellPhonesPageSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sanity_suite" title="com.nopcommece.testsuite.LoginPageTest" hash-for-method="verifyUserShouldNavigateToLoginPage">verifyUserShouldNavigateToLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Sanity_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sanity_suite" class="panel Sanity_suite">
+          <div class="suite-Sanity_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommece.testsuite.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageNavigation">
+                  </a> <!-- verifyPageNavigation -->
+                  <span class="method-name">verifyPageNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_suite-class-passed -->
+          <div class="suite-Sanity_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommece.testsuite.ComputerPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductArrangeInAlphaBaticalOrder">
+                  </a> <!-- verifyProductArrangeInAlphaBaticalOrder -->
+                  <span class="method-name">verifyProductArrangeInAlphaBaticalOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_suite-class-passed -->
+          <div class="suite-Sanity_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommece.testsuite.ElectronicsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldNavigateToCellPhonesPageSuccessfully">
+                  </a> <!-- verifyUserShouldNavigateToCellPhonesPageSuccessfully -->
+                  <span class="method-name">verifyUserShouldNavigateToCellPhonesPageSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_suite-class-passed -->
+          <div class="suite-Sanity_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommece.testsuite.ShoppingCartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductAddedToShoppingCartSuccessFully">
+                  </a> <!-- verifyProductAddedToShoppingCartSuccessFully -->
+                  <span class="method-name">verifyProductAddedToShoppingCartSuccessFully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_suite-class-passed -->
+          <div class="suite-Sanity_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommece.testsuite.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldNavigateToLoginPage">
+                  </a> <!-- verifyUserShouldNavigateToLoginPage -->
+                  <span class="method-name">verifyUserShouldNavigateToLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_suite-class-passed -->
+        </div> <!-- panel Sanity_suite -->
+        <div panel-name="test-xml-Sanity_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\harsp\IdeaProjects\Pagefactory\p1-sw5-nopcommerce-harshit-patel\src\test\java\resources\runners\sanity.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Sanity suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.nopcommece.customlisteners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sanity Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;sanity&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nopcommece.testsuite.ComputerPageTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommece.testsuite.ElectronicsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommece.testsuite.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommece.testsuite.ShoppingCartPageTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommece.testsuite.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Test --&gt;
+&lt;/suite&gt; &lt;!-- Sanity suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sanity_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sanity suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sanity Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sanity_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sanity suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPageNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductAddedToShoppingCartSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductArrangeInAlphaBaticalOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToCellPhonesPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToLoginPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPageNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductAddedToShoppingCartSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductArrangeInAlphaBaticalOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToCellPhonesPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToLoginPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sanity_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sanity suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sanity_suite');
+function tableData_Sanity_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyProductAddedToShoppingCartSuccessFully')
+data.setCell(0, 2, 'com.nopcommece.testsuite.ShoppingCartPageTest')
+data.setCell(0, 3, 20570);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyUserShouldNavigateToCellPhonesPageSuccessfully')
+data.setCell(1, 2, 'com.nopcommece.testsuite.ElectronicsPageTest')
+data.setCell(1, 3, 2972);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyProductArrangeInAlphaBaticalOrder')
+data.setCell(2, 2, 'com.nopcommece.testsuite.ComputerPageTest')
+data.setCell(2, 3, 1856);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyPageNavigation')
+data.setCell(3, 2, 'com.nopcommece.testsuite.HomePageTest')
+data.setCell(3, 3, 1160);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyUserShouldNavigateToLoginPage')
+data.setCell(4, 2, 'com.nopcommece.testsuite.LoginPageTest')
+data.setCell(4, 3, 698);
+window.suiteTableData['Sanity_suite']= { tableData: data, tableDiv: 'times-div-Sanity_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-Sanity_suite">
+              </div> <!-- times-div-Sanity_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sanity_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sanity suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductArrangeInAlphaBaticalOrder</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on computer Computers then desktop </span>
+                <span class="reporter-method-output">Sorting computer desktops Position
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on</span>
+                <span class="reporter-method-output">Verifying list after sorting [[[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']]]</span>
+                <span class="reporter-method-output">Verifying list before sorting [[[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (34fdc3794da254698feff3196f3891b4)] -> xpath: //h2[@class='product-title']]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductAddedToShoppingCartSuccessFully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">click on computer Computers</span>
+                <span class="reporter-method-output">click on computer Desktops</span>
+                <span class="reporter-method-output">sort computerdesktops to AtoZPosition
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on</span>
+                <span class="reporter-method-output">click on shopping cartADD TO CART</span>
+                <span class="reporter-method-output">To Verify Message  Build your own computer</span>
+                <span class="reporter-method-output">To Verify Message  Build your own computer</span>
+                <span class="reporter-method-output">Select 2.2 GHz Intel Pentium Dual-Core E2200 from Dropdown list</span>
+                <span class="reporter-method-output">Select 8GB [+$60.00] from Dropdown list</span>
+                <span class="reporter-method-output">Click on Radio Button By.id: product_attribute_3_7</span>
+                <span class="reporter-method-output">Click on Radio Button By.id: product_attribute_4_9</span>
+                <span class="reporter-method-output">Click on CheckBox By.id: product_attribute_5_12</span>
+                <span class="reporter-method-output">To Verify Message  $1,475.00</span>
+                <span class="reporter-method-output">To Verify Message  $1,475.00</span>
+                <span class="reporter-method-output">Select Press Button By.xpath: //button[@id='add-to-cart-button-1']</span>
+                <span class="reporter-method-output">To Verify Message  The product has been added to your shopping cart</span>
+                <span class="reporter-method-output">To Verify Message  The product has been added to your shopping cart</span>
+                <span class="reporter-method-output">Select Press Button By.xpath: //span[@class='close']</span>
+                <span class="reporter-method-output">Mouse Hover and Click on Shopping Cart </span>
+                <span class="reporter-method-output">Click on Go Cart Button</span>
+                <span class="reporter-method-output">To Verify Message  Shopping cart</span>
+                <span class="reporter-method-output">To Verify Message  Shopping cart</span>
+                <span class="reporter-method-output">Clear Quantity field</span>
+                <span class="reporter-method-output">Change The Quantity</span>
+                <span class="reporter-method-output">Click on Update Cart Button</span>
+                <span class="reporter-method-output">To Verify Message  $2,950.00</span>
+                <span class="reporter-method-output">To Verify Message  $2,950.00</span>
+                <span class="reporter-method-output">Click on CheckBox By.id: termsofservice</span>
+                <span class="reporter-method-output">Select Press Button By.id: checkout</span>
+                <span class="reporter-method-output">To Verify Message  Welcome, Please Sign In!</span>
+                <span class="reporter-method-output">To Verify Message  Welcome, Please Sign In!</span>
+                <span class="reporter-method-output">Select Press Button By.xpath: //button[contains(text(),'Checkout as Guest')]</span>
+                <span class="reporter-method-output">Select India from Dropdown list</span>
+                <span class="reporter-method-output">Select Press Button By.name: save</span>
+                <span class="reporter-method-output">Click on Radio Button By.id: shippingoption_1</span>
+                <span class="reporter-method-output">Select Press Button By.xpath: //button[@onclick='ShippingMethod.save()']</span>
+                <span class="reporter-method-output">Click on Radio Button By.id: paymentmethod_1</span>
+                <span class="reporter-method-output">Select Press Button By.xpath: //button[@onclick='PaymentMethod.save()']</span>
+                <span class="reporter-method-output">Select Master card from Dropdown list</span>
+                <span class="reporter-method-output">Select 10 from Dropdown list</span>
+                <span class="reporter-method-output">Select 2025 from Dropdown list</span>
+                <span class="reporter-method-output">Select Press Button By.id: payment-info-buttons-container</span>
+                <span class="reporter-method-output">To Verify Message  Payment Method:</span>
+                <span class="reporter-method-output">To Verify Message  Payment Method:</span>
+                <span class="reporter-method-output">To Verify Message  Credit Card</span>
+                <span class="reporter-method-output">To Verify Message  Credit Card</span>
+                <span class="reporter-method-output">To Verify Message  Shipping Method:</span>
+                <span class="reporter-method-output">To Verify Message  Shipping Method:</span>
+                <span class="reporter-method-output">To Verify Message  Next Day Air</span>
+                <span class="reporter-method-output">To Verify Message  Next Day Air</span>
+                <span class="reporter-method-output">To Verify Message  $2,950.00</span>
+                <span class="reporter-method-output">To Verify Message  $2,950.00</span>
+                <span class="reporter-method-output">Select Press Button By.xpath: //button[@onclick='ConfirmOrder.save()']</span>
+                <span class="reporter-method-output">To Verify Message  Thank you</span>
+                <span class="reporter-method-output">To Verify Message  Thank you</span>
+                <span class="reporter-method-output">To Verify Message  Your order has been successfully processed!</span>
+                <span class="reporter-method-output">To Verify Message  Your order has been successfully processed!</span>
+                <span class="reporter-method-output">Select Press Button By.xpath: //button[@onclick='setLocation("/")']</span>
+                <span class="reporter-method-output">To Verify Message  Welcome to our store</span>
+                <span class="reporter-method-output">To Verify Message  Welcome to our store</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyUserShouldNavigateToCellPhonesPageSuccessfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">To Verify Message  [[ChromeDriver: chrome on WINDOWS (a90eb621195b739d5d6b4ee104ba10bf)] -> xpath: //h1[contains(text(),'Cell phones')]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyUserShouldNavigateToLoginPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">click on login tabLog in</span>
+                <span class="reporter-method-output">To Verify Message  Welcome, Please Sign In!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sanity_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommece.testsuite.ElectronicsPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TheProductAddedSuccessfullyAndPlaceOrderSuccessfully</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommece.testsuite.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyErrorMessageWithInvalidCredentials</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sanity_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommece.testsuite.ComputerPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIT</span>
+                <span class="method-start">6465 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductArrangeInAlphaBaticalOrder</span>
+                <span class="method-start">6536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8755 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommece.testsuite.ElectronicsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">12993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldNavigateToCellPhonesPageSuccessfully</span>
+                <span class="method-start">12999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16297 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommece.testsuite.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17473 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">20626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageNavigation</span>
+                <span class="method-start">20638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22158 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommece.testsuite.ShoppingCartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIT</span>
+                <span class="method-start">26088 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductAddedToShoppingCartSuccessFully</span>
+                <span class="method-start">26092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47001 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommece.testsuite.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">51572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldNavigateToLoginPage</span>
+                <span class="method-start">51579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52512 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
